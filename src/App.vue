@@ -1,14 +1,8 @@
 <template>
-  <div>
-    <router-view></router-view>
-  </div>
+	<div id="app">
+		<router-view/>
+	</div>
 </template>
-
-<script>
-export default {
-
-}
-</script>
 
 <style>
 body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,hr,ul,ol,td,input,option,textarea{
@@ -17,8 +11,6 @@ body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,hr,ul,ol,td,input,option,textarea{
 }
 body{
 	font-family: "微软雅黑";
-  background-color: skyblue;
-  user-select: none;
 }
 li{
 	list-style: none;
